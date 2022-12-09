@@ -1,6 +1,5 @@
 import * as nodemailer from "nodemailer";
 require('dotenv').config()
-console.log('hello world')
 
 const mailSettings = {
     host: process.env.HOST,
